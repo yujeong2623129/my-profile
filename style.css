@@ -1,0 +1,83 @@
+/* 웹페이지 전체의 기본 디자인 */
+body {
+    background-color: #F3F5F8; /* 전체 배경색 */
+    font-family: "Malgun Gothic", Arial, sans-serif; /* 기본 글꼴 */
+    color: #374151; /* 기본 글자색 */
+    font-size: 16px; /* 기본 글자 크기 */
+    line-height: 1.7; /* 줄 높이 */
+    margin: 0; /* 브라우저의 기본 바깥 여백 제거 */
+}
+
+/* 전체 콘텐츠의 너비 제한 및 가운데 정렬 */
+.container {
+    max-width: 850px; /* 최대 너비 */
+    margin: 30px auto; /* 위아래 30px, 좌우 자동 */
+    padding: 0 20px; /* 위아래 0, 좌우 안쪽 여백 20px */
+}
+
+/* 상단 이름과 소개가 들어가는 배너 */
+.hero {
+    background-color: #293F52;
+    text-align: center; /* 글자 가운데 정렬 */
+    padding: 40px 24px; /* 위아래 40px, 좌우 24px */
+    border-radius: 10px; /* 모서리 둥글게 */
+}
+
+/* hero 영역 안의 h1 제목 */
+.hero h1 {
+    color: white;
+    font-size: 34px;
+    margin: 0;
+}
+
+/* hero 영역 안의 설명 문단 */
+.hero p {
+    color: #DCE6EF;
+    font-size: 14px;
+    margin: 10px 0 0; /* 위 10px, 좌우와 아래 0 */
+}
+
+/* 모든 카드에 공통으로 적용하는 스타일 */
+.card {
+    background-color: white;
+    padding: 26px; /* 카드 내부 여백 */
+    margin-top: 18px; /* 카드 위쪽 바깥 여백 */
+    border-radius: 10px;
+}
+
+/* 카드 안의 h2 소제목 */
+.card h2 {
+    font-size: 22px;
+    color: #222E3A;
+    margin-top: 0;
+}
+
+/* 카드 안의 자기소개 문단 */
+.card p {
+    font-size: 16px;
+}
+
+/* 프로젝트 목록의 각 항목 */
+.card li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* HTML, CSS, Python, Java 기술 배지 */
+.skill {
+    display: inline-block; /* 한 줄에 나란히 배치하면서 박스 형태 유지 */
+    background-color: #E8EEF9;
+    color: #31547D;
+    font-size: 14px;
+    padding: 6px 12px; /* 위아래 6px, 좌우 12px */
+    border-radius: 20px; /* 알약 모양의 둥근 테두리 */
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+/* GitHub 링크의 글자 디자인 */
+.github-link {
+    color: #345A80;
+    font-size: 16px;
+    text-decoration: underline; /* 링크에 밑줄 표시 */
+}
